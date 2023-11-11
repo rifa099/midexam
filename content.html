@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nov11.css">
+    <title>Your Website - Content</title>
+</head>
+<body>
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>Rifa's Creation.</h1>
+    </div>
+    <!-- Navbar from w3schools.com -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="content.html">Contact</a>
+    </div>
+
+    
+
+    <!-- Content Section with CSS display - flex -->
+    <div class="content-flex"> <br>
+        <p>What good is the warmth of summer, without the cold of winter to give it sweetness!</p> <br>
+        
+        <img src="/images/img9.jpeg" alt="Image 9">
+    </div>
+    <div class="product-details">
+        <h2>Product Details</h2>
+        <label for="size">Size:</label> <br><br>
+        <input type="text" id="sizeInput" placeholder="Enter size"> <br><br>
+        <label for="details">Details:</label> <br><br>
+        <input type="text" id="detailsInput" placeholder="Enter details"> <br> <br>
+        <label for="color">Color:</label> <br><br>
+        <input type="text" id="colorInput" placeholder="Enter color"> <br> <br>
+        <button onclick="showProductDetails()">Show Details</button>
+        <p id="productDetails"></p>
+    </div>
+
+    <!-- JavaScript for user input capture and display -->
+    <script src="script.js"></script>
+    <footer>
+        &copy; 2023 Rifa's Creation. All rights reserved.
+    </footer>
+</body>
+</html>

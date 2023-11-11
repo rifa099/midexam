@@ -1,0 +1,103 @@
+.body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.navbar{
+    padding: 10px 0px;
+    background-color: aquamarine;
+    
+}
+.navbar a{
+    padding: 0px 10px;
+    color: black;
+    text-decoration: none ;
+    
+
+
+}
+.navbar a:hover{
+    color: brown;
+}
+.banner{
+    background-color: rgb(14, 57, 57);
+    padding: 100px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clickable_image{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.clickable_image h3{
+    color: blue;
+    font-weight: 700;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.conten p{
+    text-align: center;
+    font-size: medium;
+}
+.conten .images_container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+
+}
+.conten .images_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container button{
+    padding: 10px;
+    border-radius: 5px;
+background-color: brown;
+
+}
+
+
+.about_section .abouttittle {
+
+    text-align: center;
+}
+.about_section .centered_images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_section .centered_images img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.image_button{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 2px;
+    color: beige;
+
+}
+.image_button:hover{
+    opacity: 0.5;
+}
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
